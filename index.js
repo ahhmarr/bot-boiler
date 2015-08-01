@@ -25,7 +25,7 @@ http.createServer(function(req,res)
 	 
 }).listen(8181);
 
-var parser=function(json)
+var parser=function(json,callback)
 {
 	var command='';
 	var text='';
