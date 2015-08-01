@@ -59,8 +59,10 @@ var reactor=function(method,queryString)
 {
 	if(!method)
 		return;
+	queryString=(!queryString.match(/^\?/))?'?'+queryString:queryString;
 	options={
-		host : 'https://api.telegram.org/bot'+API_KEY+'/'+method+'?'+queryString
+		host : 'https://api.telegram.org/',
+		path : ['/bot',API_KEY,'/',method,queryString].join()
 	};
 	var req=http.request(options,function(res)
 	{
