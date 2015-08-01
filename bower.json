@@ -1,0 +1,17 @@
+{
+  "name": "bot-boiler",
+  "version": "0.0.0",
+  "authors": [
+    "ahmar siddiqui <ahmar.siddiqui@gmail.com>"
+  ],
+  "description": "telegram bot boilerplate",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
