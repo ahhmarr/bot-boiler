@@ -2,7 +2,7 @@ var http=require('http');
 var fs=require('fs');
 var url=require('url');
 var queryString=require('querystring');
-var API='api key';
+var API_KEY='96366334:AAECwPjrzHpF7k6wIn0r7PXQyYWNpq8wJZI';
 http.createServer(function(req,res)
 {
 	var raw = '';
